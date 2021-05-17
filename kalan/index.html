@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <div class="center">
+       <h3><span>TYT</span> <br>Kalan Süre</h3>
+       <div id="clock"></div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="countdown.js"></script>
+    <script type="text/javascript">
+    $('#clock').countdown('2021/7/27',function(event){
+      var $this = $(this).html(event.strftime(''
+      +'<div><span>%m</span><span>Ay </span></div>'
+      +'<div><span>%w</span><span>Hafta </span></div>'
+      +'<div><span>%d</span><span>Gün </span></div>'
+      +'<div><span>%H</span><span>Saat </span></div>'
+      +'<div><span>%M</span><span>Dakika </span></div>'
+      +'<div><span>%S</span><span>Saniye </span></div>'
+      ))
+    })
+    </script>
+  </body>
+</html>

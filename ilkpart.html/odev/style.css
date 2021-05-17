@@ -1,0 +1,184 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: rgb(40, 42, 53);
+	line-height: 135%;
+	background: #f1f1f1;
+	text-align: center;
+}
+.blog-text{
+	width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+#blog-post-container {
+	width: 75%;
+	float: right;
+}
+#other-posts {
+	width: 25%;
+	float: right;
+	padding-left: 20px;
+}
+.p20{
+	padding: 20px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.box {
+	background: white;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	box-shadow: 0 2px 8px 2px rgba(20,23,28,.15);
+
+}
+
+.blog-post {
+	position: relative;
+}
+.tags li {
+	list-style: none;
+	display: inline;
+	margin-right: 5px;
+}
+
+.tags li a {
+	text-decoration: none;
+}
+
+#share a{
+	color:gray;
+	text-decoration: none;
+	margin-right: 12px;
+	opacity: 0.9;
+}
+
+#share a:hover{
+	opacity: 0.6;
+}
+
+li{
+	list-style: none;
+}
+
+.tags ul{
+	list-style-type: none;
+}
+
+.tags ul li{
+	margin-bottom: 10px;
+}
+
+.header{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+
+.tag{
+	padding-left: 8px;
+	padding-right: 8px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.btn{
+	display: inline-block;
+	font-size: 10px;
+	padding: 5px 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #059862;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: 1px solid transparent;
+	transition: background-color 0.3s linear;
+}
+
+.btn:hover{
+	background-color: #363636;
+	border-color: #363636;
+}
+
+
+#nav{
+	background-color: #333;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s linear;
+
+}
+
+#nav li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #059862;
+}
+
+#section-a {
+	background-color: #eaeaea;
+	color: #333;
+	padding: 3.2rem 0;
+}
+/*section-b*/
+
+#section-b {
+	padding: 2rem;
+}
+
+#section-b ul {
+	list-style: none;
+}
+
+#section-b li {
+	background: #fff;
+	color: #333;
+	margin-bottom: 1.5rem;
+}
+
+.col-content {
+	padding: 1.5rem;
+}
+
